@@ -40,3 +40,30 @@ The portfolio is hosted on GitHub Pages:
 
 ## 📂 Project Structure
 
+portfolio/
+├── index.html # Main HTML page
+├── style.css # Stylesheet
+└── script.js # JavaScript for animations
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Chorizillo-source/Portfolio.git
+```
+2. Open the folder in VS Code or your preferred editor.
+
+3. Open index.html in a browser or use the Live Server extension in VS Code to test locally.
+
+4. Enjoy exploring the portfolio!
+
+---
+
+✉️ Contact
+
+If you want to collaborate or discuss programming:
+
+Email: mariofernandezsoriatbj@gmail.com
