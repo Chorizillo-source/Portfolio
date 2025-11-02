@@ -183,6 +183,45 @@ section.visible {
   opacity: 1;
 }
 
+/*skills section*/
+
+#skills {
+  margin-top: 2rem;
+}
+#skills h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#skills .skills-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#skills .skills-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  background: #222;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.skill-card:hover {
+  background: #00c3ff;
+  color: #111;
+  transform: translateY(-3px);
+}
+
 /* Contact Form */
 #contactForm {
   display: flex;

@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", revealCards);
   revealCards(); // run once on load
 
+  
   // Dynamic particle background
   const canvas = document.getElementById("heroCanvas");
   const ctx = canvas.getContext("2d");
